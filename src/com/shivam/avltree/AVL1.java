@@ -1,4 +1,4 @@
-package com.shivam.trees.AVL;
+package com.shivam.avltree;
 
 public class AVL1 {
 
