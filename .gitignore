@@ -1,5 +1,11 @@
+# macOS
+.DS_Store
+
+# IntelliJ
 .idea/
 .idea_backup/
-out/
 *.iml
-.DS_Store
+out/
+
+# Logs
+*.log
