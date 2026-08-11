@@ -1,4 +1,4 @@
-package com.shivam.graph;
+package com.shivam.graph.algorithm;
 
 public class FloodFillAlgorithm {
 
