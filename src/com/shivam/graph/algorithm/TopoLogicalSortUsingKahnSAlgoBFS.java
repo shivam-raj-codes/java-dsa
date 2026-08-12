@@ -1,4 +1,4 @@
-package com.shivam.graph;
+package com.shivam.graph.algorithm;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
