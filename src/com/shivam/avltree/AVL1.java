@@ -109,7 +109,7 @@ public class AVL1 {
         c.height = Math.max(height(c.left), height(c.right)) + 1;
         p.height = Math.max(height(p.left), height(p.right)) + 1;
 
-        return c; // return new Parent - node of Sub - tree
+        return c; // return new Parent - node of Sub - Tree
     }
 
     // right - rotation
