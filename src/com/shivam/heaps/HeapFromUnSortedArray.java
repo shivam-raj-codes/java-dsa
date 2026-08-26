@@ -20,7 +20,7 @@ public class HeapFromUnSortedArray <T extends Comparable<T>> {
     }
 
 
-    ///  structure of tree
+    ///  structure of Tree
     public int parent (int index) {
         return (index - 1) / 2;
     }
