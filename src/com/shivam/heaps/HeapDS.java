@@ -133,7 +133,7 @@ public class HeapDS<T extends Comparable<T>> {
 
     // ------------Heap Sort----------
 
-    /// Heap Sort works because the tree is rebuilt after every removal.
+    /// Heap Sort works because the Tree is rebuilt after every removal.
     public ArrayList<T> heapSort() throws Exception {
         ArrayList<T> data = new ArrayList<>();
 
@@ -156,7 +156,7 @@ public class HeapDS<T extends Comparable<T>> {
         //because list is private.
         heap.display(); // fetch through fn
 
-        heap.displayTree(); /// display like Complete Binary-tree
+        heap.displayTree(); /// display like Complete Binary-Tree
 
         ArrayList<Integer> list = heap.heapSort();
         System.out.println("SortedList: " +list);
