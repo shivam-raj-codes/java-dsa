@@ -26,7 +26,7 @@ public class CountCompleteTreeNodes {
         int rightH = getRightHeight(root);
 
         if (leftH == rightH) {
-            /// it's a complete binary - tree
+            /// it's a complete binary - Tree
             return (int)Math.pow(2, leftH) - 1;
         }
 
