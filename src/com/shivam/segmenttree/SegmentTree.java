@@ -18,7 +18,7 @@ public class SegmentTree {
     Node root;
 
     public SegmentTree(int[] arr) {
-        /// create a tree using this array
+        /// create a Tree using this array
         this.root = constructTree(arr, 0, arr.length - 1);
     }
 
@@ -126,7 +126,7 @@ public class SegmentTree {
         int[] arr = {3, 8, 6, 7, -2, -8, 4, 9};
 
         SegmentTree tree = new SegmentTree(arr);
-        //tree.display();
+        //Tree.display();
 
         System.out.println(tree.query(1, 6));
     }
