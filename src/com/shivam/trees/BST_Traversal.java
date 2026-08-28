@@ -133,7 +133,7 @@ public class BST_Traversal {
     // finding minimum element
     public int findMin() {
         if (root == null) {
-            return -1; // tree not exist => No Min
+            return -1; // Tree not exist => No Min
         }
         return findMin(root, null);
     }
