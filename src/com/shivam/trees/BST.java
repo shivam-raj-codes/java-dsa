@@ -26,7 +26,7 @@ public class BST {
 
     // calculate height
     public int height(Node node) {
-        if (node == null) { // empty tree
+        if (node == null) { // empty Tree
             return -1;
         }
         return node.height;
@@ -80,10 +80,10 @@ public class BST {
         return balanced(root);
     }
     private boolean balanced(Node node) {
-        if (node == null) { // => there is no tree -> True
+        if (node == null) { // => there is no Tree -> True
             return true;
         }
-        return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right); // lly, checking height difference for left tree and right tree using and(&&)
+        return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right); // lly, checking height difference for left Tree and right Tree using and(&&)
     }
 
     // display Node with there info
