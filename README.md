@@ -17,3 +17,4 @@ A collection of my Java implementations of Data Structures and Algorithms, along
 - Segment Trees
 - Heaps
 - HashMaps
+- Graphs
