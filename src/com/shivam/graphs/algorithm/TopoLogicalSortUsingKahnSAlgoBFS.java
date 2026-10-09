@@ -36,7 +36,7 @@ public class TopoLogicalSortUsingKahnSAlgoBFS {
             }
         }
 
-        ArrayList<Integer> topo = new ArrayList<>(); /// topo-Sort
+        ArrayList<Integer> topo = new ArrayList<>(); /// topo-Sort - ans
         while (!q.isEmpty()) {
             int node = q.peek();
             q.poll();
